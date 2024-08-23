@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Outfit&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Open Sans", sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-size: 35px;
+  margin: 0;
+}
+
+.container p{
+  margin: 5px 700px 5px 0;
+  font-weight: bold;
+
+}
+
+textarea{
+  font-size: 16px;
+  width: 800px;
+  height: 300px;
+  border-radius: 5px;
+  padding: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.center{
+  margin-top: 20px;
+}
+
+.text{
+  padding: 10px;
+  width: 360px;
+  height: 40px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #767676;
+  border-radius: 5px;
+}
+
+img{
+  border: 1px solid #767676;
+  margin: -15px 15px;
+  padding: 5px; 
+  width: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+button{
+  cursor: pointer;
+  width: 800px;
+  height: 40px;
+  margin: 10px 0;
+  color: white;
+  background-color: #1d4ed7;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+}
+
+button:active{
+  border: 2px solid black;
+}
+
+@media (max-width: 400px) {
+  h1{
+      font-size: 25px;
+  }
+  .container p{
+    margin: 5px 205px 5px 0;
+    font-size: 13px;
+  }
+  textarea{
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+  }
+  .center{
+    margin-top: 15px;
+  }
+  .text{
+      width: 127px;
+      padding: 5px;
+      height: 34px;
+      font-size: 12px;
+  }
+  img{
+    margin: -12px 2px;
+    width: 32px;
+  }
+  form{
+    font-size: 15px;
+  }
+  button{
+      width: 300px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 700px) {
+  h1{
+      font-size: 25px;
+  }
+  .container p{
+    margin: 5px 305px 5px 0;
+    font-size: 13px;
+  }
+  textarea{
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+  }
+  .center{
+    margin-top: 15px;
+  }
+  .text{
+      width: 178px;
+      padding: 5px;
+      height: 34px;
+      font-size: 12px;
+  }
+  img{
+    margin: -12px 2px;
+    width: 32px;
+  }
+  form{
+    font-size: 15px;
+  }
+  button{
+      width: 400px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+  h1{
+      font-size: 25px;
+  }
+  .container p{
+    margin: 5px 610px 5px 0;
+    font-size: 13px;
+  }
+  textarea{
+    width: 700px;
+    height: 250px;
+    padding: 10px;
+  }
+  .center{
+    margin-top: 15px;
+  }
+  .text{
+      width: 328px;
+      padding: 5px;
+      height: 34px;
+      font-size: 12px;
+  }
+  img{
+    margin: -12px 2px;
+    width: 32px;
+  }
+  form{
+    font-size: 15px;
+  }
+  button{
+      width: 700px;
+  }
+}

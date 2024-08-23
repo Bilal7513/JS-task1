@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Find & Replace Text</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Find and Replace Text</h1>
+        <p>Occurrence: <span id="occur">0</span></p>
+        <textarea id="para" placeholder="Enter your text here."></textarea>
+        <div class="center">
+            <input class="text" type="text" id="replace-word" placeholder="Word you want to change.">
+            <img src="img/arrow.jpg" alt="arrows">
+            <input class="text" type="text" id="new-word" placeholder="Word you want to write.">
+            <form>
+                <input type="checkbox" id="checkbox" checked onclick="checkboxActive()">
+                <label>Case Sensitive</label>
+            </form>
+        </div>
+        <button class="replace" id="replace">REPLACE</button>
+        <button class="replace" id="replace-all">REPLACE ALL</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
